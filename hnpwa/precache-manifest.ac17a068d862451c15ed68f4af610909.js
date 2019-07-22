@@ -1,22 +1,22 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "319f383da94c7d4a95145372800463ef",
-    "url": "images/touch/android-chrome-192x192.png"
+    "url": "images/android-chrome-192x192.png"
   },
   {
     "revision": "aa352722e7215e38019603255e259ce7",
-    "url": "images/touch/apple-touch-icon.png"
+    "url": "images/apple-touch-icon.png"
   },
   {
     "revision": "663909b32580d4b25369ac3f8662ffbf",
-    "url": "images/touch/brand.png"
+    "url": "images/brand.png"
   },
   {
     "revision": "aebed649ccad8372511a6488bd478f0d",
-    "url": "images/touch/favicon.ico"
+    "url": "images/favicon.ico"
   },
   {
-    "revision": "24c126df5237d0d997dd920b33d5e72a",
+    "revision": "7a9a1bad985e696e04b83738fc7e61aa",
     "url": "index.html"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "main.6800fbb6332df00b8800.js"
   },
   {
-    "revision": "71593cf9671fe27d4dfe304b3d0eadba",
+    "revision": "f60329a339dc6c21fd286b9f32a9b708",
     "url": "manifest.webmanifest"
   }
 ]);

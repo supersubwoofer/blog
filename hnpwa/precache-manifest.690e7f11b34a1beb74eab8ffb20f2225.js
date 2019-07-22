@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "images/touch/favicon.ico"
   },
   {
-    "revision": "be55d57595e75037dee1c81a8a3d2083",
+    "revision": "24c126df5237d0d997dd920b33d5e72a",
     "url": "index.html"
   },
   {

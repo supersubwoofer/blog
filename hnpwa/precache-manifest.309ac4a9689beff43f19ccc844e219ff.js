@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "images/touch/favicon.ico"
   },
   {
-    "revision": "9fb8030d7c8287d1df47322e52fc7ade",
+    "revision": "be55d57595e75037dee1c81a8a3d2083",
     "url": "index.html"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "main.6800fbb6332df00b8800.js"
   },
   {
-    "revision": "885380f645652ebb39399fb4883f7aad",
+    "revision": "71593cf9671fe27d4dfe304b3d0eadba",
     "url": "manifest.webmanifest"
   }
 ]);

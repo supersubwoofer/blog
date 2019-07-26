@@ -12,16 +12,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "images/brand.png"
   },
   {
-    "revision": "aebed649ccad8372511a6488bd478f0d",
-    "url": "images/favicon.ico"
-  },
-  {
-    "revision": "7a9a1bad985e696e04b83738fc7e61aa",
+    "revision": "681def6065821804d1c3be3edc22fd21",
     "url": "index.html"
   },
   {
-    "revision": "40d8ae6930d0a758e949",
-    "url": "main.6800fbb6332df00b8800.js"
+    "revision": "6ccb606505e47644d120",
+    "url": "main.41dd0025ac78205ee25a.js"
   },
   {
     "revision": "f60329a339dc6c21fd286b9f32a9b708",

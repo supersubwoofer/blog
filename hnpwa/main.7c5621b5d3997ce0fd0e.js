@@ -343,9 +343,9 @@ object-assign
     <section>
       <h2>Audits</h2>
       <ul>
-        <li><strong>Lighthouse:</strong> 93/100</li>
-        <li><strong>Interactive (Emerging Markets):</strong> 2.3s</li>
-        <li><strong>Interactive (Faster 3G):</strong> 1.9s</li>
+        <li><strong>Lighthouse:</strong> 92/100</li>
+        <li><strong>Interactive (Emerging Markets):</strong> - </li>
+        <li><strong>Interactive (Faster 3G):</strong> 3.6s</li>
       </ul>
     </section>
     <section>
@@ -362,7 +362,7 @@ object-assign
     </section>
     <div class="demo-links">
       <a class="button-link" href="https://supersubwoofer.github.io/myblog/hnpwa/">View App</a>
-      <a class="button-link" href="">Source Code</a>
+      <a class="button-link" href="https://github.com/supersubwoofer/hnpwa">Source Code</a>
     </div>
     `}};i=n([o.customElement("view-about")],i),t.ViewAbout=i},function(e,t,r){"use strict";var n=this&&this.__decorate||function(e,t,r,n){var o,i=arguments.length,s=i<3?t:null===n?n=Object.getOwnPropertyDescriptor(t,r):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)s=Reflect.decorate(e,t,r,n);else for(var a=e.length-1;a>=0;a--)(o=e[a])&&(s=(i<3?o(s):i>3?o(t,r,s):o(t,r))||s);return i>3&&s&&Object.defineProperty(t,r,s),s};Object.defineProperty(t,"__esModule",{value:!0});const o=r(7),i=r(25);let s=class extends o.LitElement{constructor(){super(...arguments),this.onBeforeEnter=(e,t,r)=>{if(null!=e.params&&"string"==typeof e.params.id){const t=e.params.id;i.getUser(t).then(e=>e).then(e=>{this.model=e.result})}}}render(){return o.html`
     <h1 class="user-profile">User Profile</h1>

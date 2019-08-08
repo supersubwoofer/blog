@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "main.2cf34332ae816dd28c43.js"
   },
   {
-    "revision": "f60329a339dc6c21fd286b9f32a9b708",
+    "revision": "5e4a29402026330fe95a68c7b9851239",
     "url": "manifest.webmanifest"
   }
 ]);

@@ -1,9 +1,8 @@
-importScripts("precache-manifest.6577dd860799237051721aadf3f77014.js");
+importScripts("precache-manifest.539c4f305b1e36402d6b8f62b01caa60.js");
 
 self.importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js');
 
 const matchCb = ({ url, event }) => {
-  console.log(url.pathname);
   return (
     url.pathname === '/news' ||
     url.pathname === '/newest' ||

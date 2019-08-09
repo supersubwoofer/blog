@@ -3,25 +3,16 @@ importScripts("precache-manifest.6577dd860799237051721aadf3f77014.js");
 self.importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js');
 
 const matchCb = ({ url, event }) => {
+  console.log(url.pathname);
   return (
     url.pathname === '/news' ||
     url.pathname === '/newest' ||
     url.pathname === '/show' ||
     url.pathname === '/ask' ||
-    url.pathname === '/jobs'
+    url.pathname === '/jobs' ||
+    url.pathname.match(/(\/user\/*.*)/) !== null ||
+    url.pathname.match(/(\/item\/*.*)/) !== null
   );
-};
-
-const handlerCb = ({ url, event, params }) => {
-  return fetch(event.request)
-  .then((response) => {
-    // console.log('service worker fetch to text');
-    return response.text();
-  })
-  .then((responseBody) => {
-    // console.log('service worker text to Response');
-    return new Response(`${responseBody}`);
-  });
 };
 
 if (workbox) {
@@ -31,7 +22,9 @@ if (workbox) {
   workbox.precaching.precacheAndRoute(self.__precacheManifest || []);
 
   // Request-Response Routing
-  workbox.routing.registerRoute(matchCb, handlerCb);
+  workbox.routing.registerRoute(
+    matchCb,
+    new workbox.strategies.NetworkFirst());
 
 } else {
   console.log('Boo! Workbox didn\'t load 😬');

@@ -2,7 +2,7 @@
 title: Wing's New Journey
 email: supersubwoofer@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-Live your better life.
+  Live a better life.
 baseurl: "/myblog/" # the subpath of your site, e.g. /blog/
 url: "http://supersubwoofer.github.io" # the base hostname & protocol for your site
 twitter_username: sswoofer

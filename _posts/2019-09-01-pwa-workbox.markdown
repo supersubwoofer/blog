@@ -5,29 +5,30 @@ date:   2019-09-01 00:00:00
 categories: PWA
 ---
   
-  Notes on PWA studying and implementation experience
+  ## Notes on PWA studying and implementation experience
 
-  Web app should be accessible, responsive and Progressive. 
+  ### Web app should be accessible, responsive and Progressive. 
   Major benefits of PWA
   - Provides similar user experience to native app
   - Can be distributed without application store
   - Better user adoption
 
-  PWA implementation - the PRPL pattern
+  ### PWA implementation - the PRPL pattern
   - Push critical resources for the initial URL route.
   - Render initial route.
   - Pre-cache remaining routes.
   - Lazy-load and create remaining routes on demand.
   
-  Experiment
+  ### Experiment
   Implement Hacker News reader as a PWA. Using WorkBox to precache app-shell, precache static assets and cache network response. Here is the [Demo]
-  Lighthouse audits
+
+  ### Lighthouse audits
   Performance | Accessibility | Best Practices | SEO | PWA
   --- | --- | --- | --- | ---
   100 (No Throttle) | 100 | 79 | 100 | ready
   92 (Slow 4G) | 100 | 79 | 100 | ready
 
-  Recommended reading
+  ### Recommended reading
   - [The PRPL Pattern by Addy Osmani]
   - [The Offline Cookbook By Jake Archibald]
 

@@ -6,15 +6,15 @@
 </description>
     <link>http://supersubwoofer.github.io/myblog//</link>
     <atom:link href="http://supersubwoofer.github.io/myblog//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 03 Sep 2019 22:21:11 -0700</pubDate>
-    <lastBuildDate>Tue, 03 Sep 2019 22:21:11 -0700</lastBuildDate>
+    <pubDate>Tue, 03 Sep 2019 23:20:09 -0700</pubDate>
+    <lastBuildDate>Tue, 03 Sep 2019 23:20:09 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
         <title>Implement PWA caching using workbox</title>
-        <description>&lt;p&gt;Notes on PWA studying and implementation experience&lt;/p&gt;
+        <description>&lt;p&gt;## Notes on PWA studying and implementation experience&lt;/p&gt;
 
-&lt;p&gt;Web app should be accessible, responsive and Progressive. 
+&lt;p&gt;### Web app should be accessible, responsive and Progressive. 
   Major benefits of PWA&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Provides similar user experience to native app&lt;/li&gt;
@@ -22,7 +22,7 @@
   &lt;li&gt;Better user adoption&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;PWA implementation - the PRPL pattern&lt;/p&gt;
+&lt;p&gt;### PWA implementation - the PRPL pattern&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Push critical resources for the initial URL route.&lt;/li&gt;
   &lt;li&gt;Render initial route.&lt;/li&gt;
@@ -30,15 +30,16 @@
   &lt;li&gt;Lazy-load and create remaining routes on demand.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Experiment
-  Implement Hacker News reader as a PWA. Using WorkBox to precache app-shell, precache static assets and cache network response. Here is the &lt;a href=&quot;https://supersubwoofer.github.io/myblog/hnpwa/&quot;&gt;Demo&lt;/a&gt;
-  Lighthouse audits
+&lt;p&gt;### Experiment
+  Implement Hacker News reader as a PWA. Using WorkBox to precache app-shell, precache static assets and cache network response. Here is the &lt;a href=&quot;https://supersubwoofer.github.io/myblog/hnpwa/&quot;&gt;Demo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;### Lighthouse audits
   Performance | Accessibility | Best Practices | SEO | PWA
   — | — | — | — | —
   100 (No Throttle) | 100 | 79 | 100 | ready
   92 (Slow 4G) | 100 | 79 | 100 | ready&lt;/p&gt;
 
-&lt;p&gt;Recommended reading&lt;/p&gt;
+&lt;p&gt;### Recommended reading&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://developers.google.com/web/fundamentals/performance/prpl-pattern/&quot;&gt;The PRPL Pattern by Addy Osmani&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook/&quot;&gt;The Offline Cookbook By Jake Archibald&lt;/a&gt;&lt;/li&gt;

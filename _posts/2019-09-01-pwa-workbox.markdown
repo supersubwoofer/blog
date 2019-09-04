@@ -4,7 +4,9 @@ title:  "Implement PWA caching using workbox"
 date:   2019-09-01 00:00:00
 categories: PWA
 ---
-  
+
+[DEMO]
+
 ## Notes on studying and implement PWA
 
 
@@ -25,7 +27,7 @@ categories: PWA
 
 
 ### Experiment
-Implement Hacker News reader as a PWA. Using WorkBox to precache app-shell, precache static assets and cache network response. Here is the [Demo]
+Implement Hacker News reader as a PWA. Using WorkBox to precache app-shell, precache static assets and cache network response. Here is the [DEMO]
 
 
 ### Lighthouse audits
@@ -42,4 +44,4 @@ Performance | Accessibility | Best Practices | SEO | PWA
 
 [The PRPL Pattern by Addy Osmani]: https://developers.google.com/web/fundamentals/performance/prpl-pattern/
 [The Offline Cookbook By Jake Archibald]: https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook/
-[Demo]: https://supersubwoofer.github.io/myblog/hnpwa/
+[DEMO]: https://supersubwoofer.github.io/myblog/hnpwa/

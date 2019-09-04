@@ -6,13 +6,15 @@
 </description>
     <link>http://supersubwoofer.github.io/myblog//</link>
     <atom:link href="http://supersubwoofer.github.io/myblog//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 03 Sep 2019 23:36:54 -0700</pubDate>
-    <lastBuildDate>Tue, 03 Sep 2019 23:36:54 -0700</lastBuildDate>
+    <pubDate>Tue, 03 Sep 2019 23:40:24 -0700</pubDate>
+    <lastBuildDate>Tue, 03 Sep 2019 23:40:24 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
         <title>Implement PWA caching using workbox</title>
-        <description>&lt;h2 id=&quot;notes-on-studying-and-implement-pwa&quot;&gt;Notes on studying and implement PWA&lt;/h2&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;https://supersubwoofer.github.io/myblog/hnpwa/&quot;&gt;DEMO&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;notes-on-studying-and-implement-pwa&quot;&gt;Notes on studying and implement PWA&lt;/h2&gt;
 
 &lt;h3 id=&quot;web-app-should-be-accessible-responsive-and-progressive&quot;&gt;Web app should be accessible, responsive and Progressive&lt;/h3&gt;
 
@@ -32,7 +34,7 @@
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;experiment&quot;&gt;Experiment&lt;/h3&gt;
-&lt;p&gt;Implement Hacker News reader as a PWA. Using WorkBox to precache app-shell, precache static assets and cache network response. Here is the &lt;a href=&quot;https://supersubwoofer.github.io/myblog/hnpwa/&quot;&gt;Demo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Implement Hacker News reader as a PWA. Using WorkBox to precache app-shell, precache static assets and cache network response. Here is the &lt;a href=&quot;https://supersubwoofer.github.io/myblog/hnpwa/&quot;&gt;DEMO&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;lighthouse-audits&quot;&gt;Lighthouse audits&lt;/h3&gt;
 

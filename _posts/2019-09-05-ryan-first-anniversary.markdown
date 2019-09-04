@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ryan's first death anniversary"
+title:  "Ryan's first anniversary"
 date:   2019-09-05 16:00:00
 categories: Memorial
 ---

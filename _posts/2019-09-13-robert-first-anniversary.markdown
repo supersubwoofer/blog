@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Robert's first death anniversary"
+title:  "Robert's first anniversary"
 date:   2019-09-13 00:00:00
 categories: Memorial
 ---

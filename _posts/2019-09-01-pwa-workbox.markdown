@@ -23,7 +23,7 @@ categories: PWA
   Implement Hacker News reader as a PWA. Using WorkBox to precache app-shell, precache static assets and cache network response. Here is the [Demo]
   Lighthouse audits
   Performance | Accessibility | Best Practices | SEO | PWA
-  ---|---|---|---|---
+  --- | --- | --- | --- | ---
   100 (No Throttle) | 100 | 79 | 100 | ready
   92 (Slow 4G) | 100 | 79 | 100 | ready
 

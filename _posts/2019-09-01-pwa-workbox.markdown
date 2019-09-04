@@ -40,9 +40,9 @@ Performance | Accessibility | Best Practices | SEO | PWA
 
 ### Recommended reading
 - [The PRPL Pattern by Addy Osmani]
-- [The Offline Cookbook By Jake Archibald]
+- [The Offline Cookbook by Jake Archibald]
 
 [The PRPL Pattern by Addy Osmani]: https://developers.google.com/web/fundamentals/performance/prpl-pattern/
-[The Offline Cookbook By Jake Archibald]: https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook/
+[The Offline Cookbook by Jake Archibald]: https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook/
 [Workbox]: https://developers.google.com/web/tools/workbox/
 [DEMO]: https://supersubwoofer.github.io/myblog/hnpwa/

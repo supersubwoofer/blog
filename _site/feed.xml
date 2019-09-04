@@ -6,16 +6,17 @@
 </description>
     <link>http://supersubwoofer.github.io/myblog//</link>
     <atom:link href="http://supersubwoofer.github.io/myblog//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 03 Sep 2019 23:31:02 -0700</pubDate>
-    <lastBuildDate>Tue, 03 Sep 2019 23:31:02 -0700</lastBuildDate>
+    <pubDate>Tue, 03 Sep 2019 23:36:54 -0700</pubDate>
+    <lastBuildDate>Tue, 03 Sep 2019 23:36:54 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
         <title>Implement PWA caching using workbox</title>
-        <description>&lt;h2 id=&quot;notes-on-pwa-studying-and-implementation-experience&quot;&gt;Notes on PWA studying and implementation experience&lt;/h2&gt;
+        <description>&lt;h2 id=&quot;notes-on-studying-and-implement-pwa&quot;&gt;Notes on studying and implement PWA&lt;/h2&gt;
 
-&lt;h3 id=&quot;web-app-should-be-accessible-responsive-and-progressive&quot;&gt;Web app should be accessible, responsive and Progressive.&lt;/h3&gt;
-&lt;p&gt;Major benefits of PWA&lt;/p&gt;
+&lt;h3 id=&quot;web-app-should-be-accessible-responsive-and-progressive&quot;&gt;Web app should be accessible, responsive and Progressive&lt;/h3&gt;
+
+&lt;h3 id=&quot;major-benefits-of-pwa&quot;&gt;Major benefits of PWA&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;Provides similar user experience to native app&lt;/li&gt;
   &lt;li&gt;Can be distributed without application store&lt;/li&gt;
@@ -24,10 +25,10 @@
 
 &lt;h3 id=&quot;pwa-implementation---the-prpl-pattern&quot;&gt;PWA implementation - the PRPL pattern&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;Push critical resources for the initial URL route.&lt;/li&gt;
-  &lt;li&gt;Render initial route.&lt;/li&gt;
-  &lt;li&gt;Pre-cache remaining routes.&lt;/li&gt;
-  &lt;li&gt;Lazy-load and create remaining routes on demand.&lt;/li&gt;
+  &lt;li&gt;Push critical resources for the initial URL route&lt;/li&gt;
+  &lt;li&gt;Render initial route&lt;/li&gt;
+  &lt;li&gt;Pre-cache remaining routes&lt;/li&gt;
+  &lt;li&gt;Lazy-load and create remaining routes on demand&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;experiment&quot;&gt;Experiment&lt;/h3&gt;

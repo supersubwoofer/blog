@@ -27,7 +27,7 @@ categories: PWA
 
 
 ### Experiment
-Implement Hacker News reader as a PWA. Using WorkBox to precache app-shell, precache static assets and cache network response. Here is the [DEMO]
+Implement Hacker News reader as a PWA. Using [Workbox] to precache app-shell, precache static assets and cache network response. Here is the [DEMO]
 
 
 ### Lighthouse audits
@@ -44,4 +44,5 @@ Performance | Accessibility | Best Practices | SEO | PWA
 
 [The PRPL Pattern by Addy Osmani]: https://developers.google.com/web/fundamentals/performance/prpl-pattern/
 [The Offline Cookbook By Jake Archibald]: https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook/
+[Workbox]: https://developers.google.com/web/tools/workbox/
 [DEMO]: https://supersubwoofer.github.io/myblog/hnpwa/

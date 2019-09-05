@@ -7,6 +7,6 @@ categories: Memorial
  
   Hello Robert, 
 
-  Thanks for your inspiration. My good friend and mentor. We will live our better life.
+  Thanks for your inspiration. My good friend and mentor. Love! We will live our better life.
 
   Wing
